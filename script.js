@@ -21,7 +21,6 @@ let currentScore = 0;
 btnRollDice.addEventListener('click', function () {
   // Generating a random dice roll
   const dice = Math.trunc(Math.random() * 6) + 1;
-  console.log(dice);
 
   // display dice
   diceEl.classList.remove('hidden');
